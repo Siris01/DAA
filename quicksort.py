@@ -4,6 +4,7 @@ def quick_sort(arr, low, high):
         quick_sort(arr, low, partition - 1)
         quick_sort(arr, partition + 1, high)
 
+
 def partition_array(arr, low, high):
     pivot = arr[high]
     i = low - 1
